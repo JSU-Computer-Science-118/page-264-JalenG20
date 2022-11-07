@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "compile Test",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 20
+    },
+    {
+      "name": "Lower Bound Test",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "1",
+      "output": "out of bound",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Upper Bound Test",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "1001",
+      "output": "out of bound",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 2",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "2",
+      "output": "Number 2 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 3",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "3",
+      "output": "Number 3 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 5",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "5",
+      "output": "Number 5 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 7",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "7",
+      "output": "Number 7 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 11",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "11",
+      "output": "Number 11 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 13",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "13",
+      "output": "Number 13 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 17",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "17",
+      "output": "Number 17 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 19",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "19",
+      "output": "Number 19 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 23",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "23",
+      "output": "Number 23 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 29",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "29",
+      "output": "Number 29 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Prime 31",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "31",
+      "output": "Number 31 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Test 47",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "47",
+      "output": "Number 47 is prime!",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Test 210",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "210",
+      "output": "2 3 5 7",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    },
+    {
+      "name": "Test 6",
+      "setup": "cmake . && make",
+      "run": "./page264",
+      "input": "6",
+      "output": "2 3",
+      "comparison": "exact",
+      "timeout": 4,
+      "points": 5
+    }
+  ]
+}
