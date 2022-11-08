@@ -5,8 +5,8 @@
       "setup": "cmake . && make",
       "run": "./page264",
       "input": "",
-      "output": "",
-      "comparison": "included",
+      "output": "[a-zA-Z0-9]+",
+      "comparison": "regex",
       "timeout": 4,
       "points": 20
     },
