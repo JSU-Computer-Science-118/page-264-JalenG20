@@ -4,9 +4,9 @@
       "name": "compile Test",
       "setup": "cmake . && make",
       "run": "./page264",
-      "input": "",
-      "output": "",
-      "comparison": "included",
+      "input": "1",
+      "output": "[a-zA-Z0-9]+",
+      "comparison": "regex",
       "timeout": 4,
       "points": 20
     },
